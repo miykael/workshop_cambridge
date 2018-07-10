@@ -23,7 +23,9 @@ USER neuro
 
 RUN bash -c "source activate neuro \
     && conda install -y -q pip \
-                           numpy" \
+                           numpy \
+                           keras \
+                           tensorflow" \
     && conda clean -tipsy
 
 RUN bash -c "source activate neuro \
