@@ -6,53 +6,9 @@ FROM miykael/nipype_tutorial:latest
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-#--------------------------------------------------
-# Update conda environment with additional software
-#--------------------------------------------------
-
-USER root
-
-# Install additional software
-RUN apt-get update -qq \
-    && apt-get install -y -q --no-install-recommends \
-           gcc \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-USER neuro
-
-RUN bash -c "source activate neuro \
-    && conda install -y -q pip \
-                           numpy \
-                           keras \
-                           tensorflow" \
-    && conda clean -tipsy
-
-RUN bash -c "source activate neuro \
-    && pip install --no-cache-dir \
-                   nitime \
-                   nibabel \
-                   nilearn" \
-    && rm -rf ~/.cache/pip/*
-
-#------------------------------------------------------------
-# Update conda environment 'neuro' for visualization examples
-#------------------------------------------------------------
-
-USER neuro
-
-RUN bash -c "source activate neuro \
-    && conda install -y -q bokeh \
-                           holoviews \
-                           nilearn \
-                           plotly \
-                           scikit-image \
-                           scipy=0.19" \
-    && conda clean -tipsy
-
-#--------------------------------------------
-# Update conda environment 'neuro' for PyMVPA
-#--------------------------------------------
+#--------------------------------------
+# Update system applications for PyMVPA
+#--------------------------------------
 
 USER root
 
@@ -62,9 +18,28 @@ RUN apt-get update -qq \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+#---------------------------------
+# Update conda environment 'neuro'
+#---------------------------------
+
 USER neuro
+
 RUN bash -c "source activate neuro \
-    && pip install --upgrade pip pymvpa2" \
+    && conda install -y -q dipy \
+                           bokeh \
+                           holoviews \
+                           plotly" \
+    && conda clean -tipsy \
+    && rm -rf /opt/miniconda-latest/pkgs/*
+
+RUN bash -c "source activate neuro \
+    && pip install --no-cache-dir nitime \
+                                  nibabel \
+                                  nilearn \
+                                  dipy \
+                                  pymvpa2 \
+                                  tensorflow \
+                                  keras" \
     && rm -rf ~/.cache/pip/*
 
 #------------------------------------------------
@@ -77,8 +52,6 @@ USER root
 COPY [".", "/home/neuro/workshop"]
 
 RUN chown -R neuro /home/neuro/workshop
-
-RUN rm -rf /opt/miniconda-latest/pkgs/*
 
 USER neuro
 
