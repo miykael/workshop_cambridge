@@ -19,6 +19,17 @@ RUN apt-get update -qq \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+#------------------------------------
+# Install HarvardOxford atlas via FSL
+#------------------------------------
+
+RUN apt-get update -qq \
+    && apt-get install -y -q --no-install-recommends \
+           fsl-harvard-oxford-atlases \
+           fsl-harvard-oxford-cortical-lateralized-atlas \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
 #---------------------------------
 # Update conda environment 'neuro'
 #---------------------------------
