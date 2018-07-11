@@ -14,7 +14,8 @@ USER root
 
 # Install software for PyMVPA
 RUN apt-get update -qq \
-    && apt-get install -y -q --no-install-recommends swig \
+    && apt-get install -y -q --no-install-recommends \
+           swig \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
@@ -24,23 +25,23 @@ RUN apt-get update -qq \
 
 USER neuro
 
-RUN bash -c "source activate neuro \
-    && conda install -y -q dipy \
-                           bokeh \
-                           holoviews \
-                           plotly" \
-    && conda clean -tipsy \
-    && rm -rf /opt/miniconda-latest/pkgs/*
-
-RUN bash -c "source activate neuro \
-    && pip install --no-cache-dir nitime \
-                                  nibabel \
-                                  nilearn \
-                                  dipy \
-                                  pymvpa2 \
-                                  tensorflow \
-                                  keras" \
-    && rm -rf ~/.cache/pip/*
+RUN conda install -y -q --name neuro \
+           dipy \
+           bokeh \
+           holoviews \
+           plotly \
+    && sync && conda clean -tipsy && sync \
+    && bash -c "source activate neuro \
+    &&   pip install  --no-cache-dir \
+             nitime \
+             nibabel \
+             nilearn \
+             dipy \
+             pymvpa2 \
+             tensorflow \
+             keras" \
+    && rm -rf ~/.cache/pip/* \
+    && sync
 
 #------------------------------------------------
 # Copy workshop notebooks into image and clean up
@@ -52,6 +53,8 @@ USER root
 COPY [".", "/home/neuro/workshop"]
 
 RUN chown -R neuro /home/neuro/workshop
+
+RUN rm -rf /opt/conda/pkgs/*
 
 USER neuro
 
