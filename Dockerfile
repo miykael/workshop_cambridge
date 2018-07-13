@@ -61,7 +61,17 @@ RUN conda install -y -q --name neuro \
 USER root
 
 # Install workshop notebooks and slides
-COPY [".", "/home/neuro/workshop"]
+COPY ["notebooks", "/home/neuro/workshop/notebooks"]
+
+COPY ["slides", "/home/neuro/workshop/slides"]
+
+COPY ["program.ipynb", "/home/neuro/workshop/program.ipynb"]
+
+COPY ["test_notebooks.py", "/home/neuro/workshop/test_notebooks.py"]
+
+RUN curl -J -L -o /data/adhd_data.zip https://www.dropbox.com/sh/wl0auzjfnp2jia3/AAChCae4sCHzB8GJ02VHGOYQa?dl=1 && mkdir /data/adhd && unzip /data/adhd_data.zip -d /data/adhd/ -x / && rm /data/adhd_data.zip
+
+RUN chown -R neuro /data/adhd
 
 RUN chown -R neuro /home/neuro/workshop
 
