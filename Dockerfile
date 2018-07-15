@@ -36,21 +36,19 @@ RUN apt-get update -qq \
 
 USER neuro
 
-RUN conda install -y -q --name neuro \
-           dipy \
-           bokeh \
-           holoviews \
-           plotly \
+RUN conda install -y -q --name neuro bokeh \
+                                     holoviews \
+                                     plotly \
     && sync && conda clean -tipsy && sync \
     && bash -c "source activate neuro \
-    &&   pip install  --no-cache-dir \
-             nitime \
-             nibabel \
-             nilearn \
-             dipy \
-             pymvpa2 \
-             tensorflow \
-             keras" \
+    && pip install  --no-cache-dir nitime \
+                                   nibabel \
+                                   nilearn \
+                                   dipy \
+                                   pymvpa2 \
+                                   tensorflow \
+                                   keras \
+                                   vtk" \
     && rm -rf ~/.cache/pip/* \
     && sync
 
@@ -60,7 +58,6 @@ RUN conda install -y -q --name neuro \
 
 USER root
 
-# Install workshop notebooks and slides
 COPY ["notebooks", "/home/neuro/workshop/notebooks"]
 
 COPY ["slides", "/home/neuro/workshop/slides"]
@@ -69,7 +66,10 @@ COPY ["program.ipynb", "/home/neuro/workshop/program.ipynb"]
 
 COPY ["test_notebooks.py", "/home/neuro/workshop/test_notebooks.py"]
 
-RUN curl -J -L -o /data/adhd_data.zip https://www.dropbox.com/sh/wl0auzjfnp2jia3/AAChCae4sCHzB8GJ02VHGOYQa?dl=1 && mkdir /data/adhd && unzip /data/adhd_data.zip -d /data/adhd/ -x / && rm /data/adhd_data.zip
+RUN curl -J -L -o /data/adhd_data.zip https://www.dropbox.com/sh/wl0auzjfnp2jia3/AAChCae4sCHzB8GJ02VHGOYQa?dl=1 \
+    && mkdir /data/adhd \
+    && unzip /data/adhd_data.zip -d /data/adhd/ -x / \
+    && rm /data/adhd_data.zip
 
 RUN chown -R neuro /data/adhd
 
