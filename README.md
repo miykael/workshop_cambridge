@@ -1,13 +1,17 @@
 # Workshops Cambridge - 2018
 
-[!https://images.microbadger.com/badges/version/miykael/workshop_cambridge.svg](http://github.com/miykael/workshop_cambridge">miykael/workshop_cambridge)
+
 [!https://img.shields.io/github/issues-raw/miykael/workshop_cambridge/bug.svg?maxAge=2592000](http://github.com/miykael/workshop_cambridge/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+
+
 [!https://img.shields.io/circleci/project/miykael/workshop_cambridge/master.svg?maxAge=2592000](https://circleci.com/gh/miykael/workshop_cambridge/tree/master)
+
+
 [!https://img.shields.io/github/issues-pr-raw/miykael/workshop_cambridge/bug.svg?maxAge=2592000](http://github.com/miykael/workshop_cambridge/pulls)
+
+
 [!https://img.shields.io/docker/pulls/miykael/workshop_cambridge.svg?maxAge=2592000](https://hub.docker.com/r/miykael/workshop_cambridge/)
-[!https://images.microbadger.com/badges/image/miykael/workshop_cambridge.svg](https://hub.docker.com/r/miykael/workshop_cambridge/)
-[!https://circleci.com/gh/miykael/workshop_cambridge/tree/master](https://circleci.com/gh/miykael/workshop_cambridge/tree/master.svg?style=svg)
-[!https://pypi.python.org/pypi/workshop_cambridge/](https://img.shields.io/pypi/l/workshop_cambridge.svg)
+
 
 This repository contains everything for the the workshop in Cambridge 2018. Their are three ways that you can interact with its content:
 
