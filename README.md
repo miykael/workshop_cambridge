@@ -2,6 +2,9 @@
 
 
 [![CircleCi](https://img.shields.io/circleci/project/miykael/workshop_cambridge/master.svg?maxAge=2592000)](https://circleci.com/gh/miykael/workshop_cambridge/tree/master)
+[![GitHub issues](https://img.shields.io/github/issues/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/pull/)
+
 [![Docker Hub](https://img.shields.io/docker/pulls/miykael/workshop_cambridge.svg?maxAge=2592000)](https://hub.docker.com/r/miykael/workshop_cambridge/)
 [![GitHub downloads](https://img.shields.io/github/downloads/miykael/workshop_cambridge/StrapDown.js/total.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js/releases/)
 [![GitHub Size](https://github-size-badge.herokuapp.com/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/archive/master.zip)
@@ -9,10 +12,7 @@
 [![GitHub version](https://badge.fury.io/gh/miykael%2FStrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js)
 [![Google Analytics](https://ga-beacon.appspot.com/UA-XXXXXXXX-XX/github.com/miykael/workshop_cambridge/badges/README.md)](https://github.com/miykael/workshop_cambridge/badges/)
 
-[![GitHub contributors](https://opencollective.com/miykael/workshop_cambridge/contributors.svg?width=890)](https://github.com/miykael/workshop_cambridge/graphs/contributors)
-
-[![GitHub issues](https://img.shields.io/github/issues/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/pull/)
+[![GitHub contributors](https://img.shields.io/github/contributors/miykael/workshop_cambridge.svg)](https://GitHub.com/miykael/workshop_cambridge/graphs/contributors/)
 
 
 
