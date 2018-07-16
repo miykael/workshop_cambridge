@@ -7,23 +7,13 @@
 [![GitHub HitCount](http://hits.dwyl.io/miykael/workshop_cambridge/nipype_tutorial.svg)](http://hits.dwyl.io/miykael/workshop_cambridge/nipype_tutorial)
 [![GitHub version](https://badge.fury.io/gh/miykael%2FStrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js)
 [![Google Analytics](https://ga-beacon.appspot.com/UA-XXXXXXXX-XX/github.com/miykael/workshop_cambridge/badges/README.md)](https://github.com/miykael/workshop_cambridge/badges/)
-[![GitHub contributors](https://img.shields.io/github/contributors/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js/graphs/contributors/)
 
-
+[![GitHub contributors](https://opencollective.com/shields/contributors.svg?width=890)](https://github.com/miykael/workshop_cambridge/graphs/contributors)
 [![GitHub license](https://img.shields.io/github/license/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js/blob/master/LICENSE)
 
-
 [![GitHub issues](https://img.shields.io/github/issues/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/issues/)
-
-[![GitHub issues-closed](https://img.shields.io/github/issues-closed/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/issues?q=is%3Aissue+is%3Aclosed)
-
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/pull/)
-
-[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/pull/)
-
 [![GitHub size](https://badge-size.herokuapp.com/miykael/StrapDown.js/master/strapdown.min.js)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js)
-
-
 
 
 
