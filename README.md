@@ -7,15 +7,6 @@
 [![GitHub HitCount](http://hits.dwyl.io/miykael/workshop_cambridge/nipype_tutorial.svg)](http://hits.dwyl.io/miykael/workshop_cambridge/nipype_tutorial)
 [![GitHub version](https://badge.fury.io/gh/miykael%2FStrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js)
 [![Google Analytics](https://ga-beacon.appspot.com/UA-XXXXXXXX-XX/github.com/miykael/workshop_cambridge/badges/README.md)](https://github.com/miykael/workshop_cambridge/badges/)
-
-[![GitHub forks](https://img.shields.io/github/forks/miykael/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/Naereen/StrapDown.js/network/)
-
-[![GitHub stars](https://img.shields.io/github/stars/miykael/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Naereen/StrapDown.js/stargazers/)
-
-[![GitHub watchers](https://img.shields.io/github/watchers/miykael/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/Naereen/StrapDown.js/watchers/)
-
-[![GitHub followers](https://img.shields.io/github/followers/miykael.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/miykael?tab=followers)
-
 [![GitHub contributors](https://img.shields.io/github/contributors/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js/graphs/contributors/)
 
 
@@ -30,7 +21,7 @@
 
 [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/pull/)
 
-[![GitHub size](https://badge-size.herokuapp.com/miykael/workshop_cambridge/StrapDown.js/master/strapdown.min.js)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js)
+[![GitHub size](https://badge-size.herokuapp.com/miykael/StrapDown.js/master/strapdown.min.js)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js)
 
 
 
