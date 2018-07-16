@@ -1,5 +1,3 @@
-# Workshops Cambridge - 2018
-
 [![CircleCi](https://img.shields.io/circleci/project/miykael/workshop_cambridge/master.svg?maxAge=2592000)](https://circleci.com/gh/miykael/workshop_cambridge/tree/master)
 [![GitHub issues](https://img.shields.io/github/issues/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/pulls/)
@@ -9,7 +7,9 @@
 [![Docker Hub](https://img.shields.io/docker/pulls/miykael/workshop_cambridge.svg?maxAge=2592000)](https://hub.docker.com/r/miykael/workshop_cambridge/)
 [![GitHub HitCount](http://hits.dwyl.io/miykael/workshop_cambridge.svg)](http://hits.dwyl.io/miykael/workshop_cambridge)
 
-This repository contains everything for the the workshop in Cambridge 2018. Their are three ways that you can interact with its content:
+# Workshops Cambridge - 2018
+
+This repository contains everything for the the workshop in Cambridge 2018. There are three ways that you can interact with its content:
 
 ## 1. Docker (recommended)
 
