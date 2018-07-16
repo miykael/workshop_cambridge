@@ -8,7 +8,7 @@
 [![GitHub version](https://badge.fury.io/gh/miykael%2FStrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js)
 [![Google Analytics](https://ga-beacon.appspot.com/UA-XXXXXXXX-XX/github.com/miykael/workshop_cambridge/badges/README.md)](https://github.com/miykael/workshop_cambridge/badges/)
 
-[![GitHub contributors](https://opencollective.com/shields/contributors.svg?width=890)](https://github.com/miykael/workshop_cambridge/graphs/contributors)
+[![GitHub contributors](https://opencollective.com/miykael/workshop_cambridge/contributors.svg?width=890)](https://github.com/miykael/workshop_cambridge/graphs/contributors)
 [![GitHub license](https://img.shields.io/github/license/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js/blob/master/LICENSE)
 
 [![GitHub issues](https://img.shields.io/github/issues/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/issues/)
