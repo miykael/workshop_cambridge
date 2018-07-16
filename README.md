@@ -9,12 +9,12 @@
 [![Google Analytics](https://ga-beacon.appspot.com/UA-XXXXXXXX-XX/github.com/miykael/workshop_cambridge/badges/README.md)](https://github.com/miykael/workshop_cambridge/badges/)
 
 [![GitHub contributors](https://opencollective.com/miykael/workshop_cambridge/contributors.svg?width=890)](https://github.com/miykael/workshop_cambridge/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js/blob/master/LICENSE)
 
 [![GitHub issues](https://img.shields.io/github/issues/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/pull/)
-[![GitHub size](https://badge-size.herokuapp.com/miykael/StrapDown.js/master/strapdown.min.js)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js)
 
+![Size](https://github-size-badge.herokuapp.com/miykael/workshop_cambridge.svg)
+![Size](http://img.badgesize.io/miykael/workshop_cambridge/master/index.js.svg?compression=gzip)
 
 
 This repository contains everything for the the workshop in Cambridge 2018. Their are three ways that you can interact with its content:
