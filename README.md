@@ -1,13 +1,25 @@
 # Workshops Cambridge - 2018
 
 
-[![](https://img.shields.io/github/issues-raw/miykael/workshop_cambridge/bug.svg?maxAge=2592000)](http://github.com/miykael/workshop_cambridge/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+[![CircleCi](https://img.shields.io/circleci/project/miykael/workshop_cambridge/master.svg?maxAge=2592000)](https://circleci.com/gh/miykael/workshop_cambridge/tree/master)
+[![Docker Hub](https://img.shields.io/docker/pulls/miykael/workshop_cambridge.svg?maxAge=2592000)](https://hub.docker.com/r/miykael/workshop_cambridge/)
+[![GitHub license](https://img.shields.io/github/license/miykael/workshop_cambridge/StrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js/blob/master/LICENSE)
+[![GitHub all releases](https://img.shields.io/github/downloads/miykael/workshop_cambridge/StrapDown.js/total.svg)](https://GitHub.com/miykael/workshop_cambridge/StrapDown.js/releases/)
+[![GitHub forks](https://img.shields.io/github/forks/miykael/workshop_cambridge/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/miykael/workshop_cambridge/StrapDown.js/network/)
+[![GitHub stars](https://img.shields.io/github/stars/miykael/workshop_cambridge/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/miykael/workshop_cambridge/StrapDown.js/stargazers/)
+[![GitHub watchers](https://img.shields.io/github/watchers/miykael/workshop_cambridge/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/miykael/workshop_cambridge/StrapDown.js/watchers/)
+[![GitHub followers](https://img.shields.io/github/followers/miykael.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/miykael?tab=followers)
+[![GitHub contributors](https://img.shields.io/github/contributors/miykael/workshop_cambridge/StrapDown.js.svg)](https://GitHub.com/miykael/workshop_cambridge/StrapDown.js/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/miykael/workshop_cambridge/StrapDown.js.svg)](https://GitHub.com/miykael/workshop_cambridge/StrapDown.js/issues/)
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/miykael/workshop_cambridge/StrapDown.js.svg)](https://GitHub.com/miykael/workshop_cambridge/StrapDown.js/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/miykael/workshop_cambridge/StrapDown.js.svg)](https://GitHub.com/miykael/workshop_cambridge/StrapDown.js/pull/)
+[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/miykael/workshop_cambridge/StrapDown.js.svg)](https://GitHub.com/miykael/workshop_cambridge/StrapDown.js/pull/)
+[![GitHub size](https://badge-size.herokuapp.com/miykael/workshop_cambridge/StrapDown.js/master/strapdown.min.js)](https://github.com/miykael/workshop_cambridge/StrapDown.js/blob/master/strapdown.min.js)
+[![GitHub HitCount](http://hits.dwyl.io/miykael/workshop_cambridge/nipype_tutorial.svg)](http://hits.dwyl.io/miykael/workshop_cambridge/nipype_tutorial)
+[![GitHub version](https://badge.fury.io/gh/miykael%2FStrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js)
+[![Google Analytics](https://ga-beacon.appspot.com/UA-XXXXXXXX-XX/github.com/miykael/workshop_cambridge/badges/README.md)](https://GitHub.com/miykael/workshop_cambridge/badges/)
 
-[![](https://img.shields.io/circleci/project/miykael/workshop_cambridge/master.svg?maxAge=2592000)](https://circleci.com/gh/miykael/workshop_cambridge/tree/master)
 
-[![](https://img.shields.io/github/issues-pr-raw/miykael/workshop_cambridge/bug.svg?maxAge=2592000)](http://github.com/miykael/workshop_cambridge/pulls)
-
-[![](https://img.shields.io/docker/pulls/miykael/workshop_cambridge.svg?maxAge=2592000)](https://hub.docker.com/r/miykael/workshop_cambridge/)
 
 This repository contains everything for the the workshop in Cambridge 2018. Their are three ways that you can interact with its content:
 
