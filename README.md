@@ -1,25 +1,23 @@
-# Workshops Cambridge - 2018
-
+Workshops Cambridge - 2018
+==========================
 
 [![CircleCi](https://img.shields.io/circleci/project/miykael/workshop_cambridge/master.svg?maxAge=2592000)](https://circleci.com/gh/miykael/workshop_cambridge/tree/master)
 [![GitHub issues](https://img.shields.io/github/issues/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/pull/)
-
-[![Docker Hub](https://img.shields.io/docker/pulls/miykael/workshop_cambridge.svg?maxAge=2592000)](https://hub.docker.com/r/miykael/workshop_cambridge/)
-[![GitHub downloads](https://img.shields.io/github/downloads/miykael/workshop_cambridge/StrapDown.js/total.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js/releases/)
-[![GitHub Size](https://github-size-badge.herokuapp.com/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/archive/master.zip)
-[![GitHub HitCount](http://hits.dwyl.io/miykael/workshop_cambridge/nipype_tutorial.svg)](http://hits.dwyl.io/miykael/workshop_cambridge/nipype_tutorial)
-[![GitHub version](https://badge.fury.io/gh/miykael%2FStrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js)
-[![Google Analytics](https://ga-beacon.appspot.com/UA-XXXXXXXX-XX/github.com/miykael/workshop_cambridge/badges/README.md)](https://github.com/miykael/workshop_cambridge/badges/)
-
 [![GitHub contributors](https://img.shields.io/github/contributors/miykael/workshop_cambridge.svg)](https://GitHub.com/miykael/workshop_cambridge/graphs/contributors/)
-
+[![GitHub version](https://badge.fury.io/gh/miykael%2FStrapDown.js.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js)
+[![GitHub downloads](https://img.shields.io/github/downloads/miykael/workshop_cambridge/StrapDown.js/total.svg)](https://github.com/miykael/workshop_cambridge/StrapDown.js/releases/)
+[![GitHub size](https://github-size-badge.herokuapp.com/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/archive/master.zip)
+[![Docker Hub](https://img.shields.io/docker/pulls/miykael/workshop_cambridge.svg?maxAge=2592000)](https://hub.docker.com/r/miykael/workshop_cambridge/)
+[![GitHub HitCount](http://hits.dwyl.io/miykael/workshop_cambridge/nipype_tutorial.svg)](http://hits.dwyl.io/miykael/workshop_cambridge/nipype_tutorial)
+[![Google Analytics](https://ga-beacon.appspot.com/UA-XXXXXXXX-XX/github.com/miykael/workshop_cambridge/badges/README.md)](https://github.com/miykael/workshop_cambridge/badges/)
 
 
 
 This repository contains everything for the the workshop in Cambridge 2018. Their are three ways that you can interact with its content:
 
-## 1. Docker (recommended)
+1. Docker (recommended)
+-----------------------
 
 If you want to have the full experience, use the docker container `miykael/workshop_cambridge`. It provides the computational environment to run the notebooks on any system with all necessary dependencies installed. To install [Docker](https://www.docker.com/) on your system, follow one of those links:
 
@@ -49,7 +47,8 @@ If you want to have access to the notebooks run in the docker container, add the
 And if you want to have access to the output data created within the docker container, add the command  `-v /path/to/your/output_folder:/output` before `miykael/workshop_cambridge`, where `/path/to/your/output_folder` should be a free folder on your system, such as `/User/neuro/Desktop/output`.
 
 
-## 2. Conda (if you want to install everything on your system yourself)
+2. Conda (if you want to install everything on your system yourself)
+--------------------------------------------------------------------
 
 If you don't care about some of the software dependencies, or have them already installed on your system, you can use conda to create the necessary python environment to run the notebooks:
 
@@ -61,6 +60,7 @@ If you don't care about some of the software dependencies, or have them already 
 **Note**: This only provides you the notebooks from the workshop that are not already in the `nipype_tutorial`. Those notebooks you can download here: https://github.com/miykael/nipype_tutorial
 
 
-## 3. Jupyter NBViewer
+3. Jupyter NBViewer
+-------------------
 
 All the notebooks (but not the slides) can be looked at via [Jupyter nbviewer](https://nbviewer.jupyter.org/github/miykael/workshop_mumbai/blob/master/program.ipynb). Like this you can see everything but cannot really interact with the scripts or run the code.
