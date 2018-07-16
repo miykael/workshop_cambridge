@@ -8,7 +8,6 @@
 [![GitHub size](https://github-size-badge.herokuapp.com/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/archive/master.zip)
 [![Docker Hub](https://img.shields.io/docker/pulls/miykael/workshop_cambridge.svg?maxAge=2592000)](https://hub.docker.com/r/miykael/workshop_cambridge/)
 [![GitHub HitCount](http://hits.dwyl.io/miykael/workshop_cambridge/nipype_tutorial.svg)](http://hits.dwyl.io/miykael/workshop_cambridge/nipype_tutorial)
-[![Google Analytics](https://ga-beacon.appspot.com/UA-XXXXXXXX-XX/github.com/miykael/workshop_cambridge/badges/README.md)](https://github.com/miykael/workshop_cambridge/badges/)
 
 This repository contains everything for the the workshop in Cambridge 2018. Their are three ways that you can interact with its content:
 
