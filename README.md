@@ -19,11 +19,9 @@ If you want to have the full experience, use the docker container `miykael/works
  - [Windows 7/8/9/10](https://docs.docker.com/toolbox/toolbox_install_windows/) or [Windows 10Pro](https://docs.docker.com/docker-for-windows/install/)
  - [OS X (from El Capitan 10.11 on)](https://docs.docker.com/docker-for-mac/install/) or [OS X (before El Capitan 10.11)](https://docs.docker.com/toolbox/toolbox_install_mac/).
 
-Once Docker is installed, open up the docker terminal and test if it works with the command:
+Once Docker is installed, open up the docker terminal and test if it works with the command: `docker run hello-world`
 
-    docker run hello-world
-
-**Note:** Linux users might need to use ``sudo`` to run ``docker`` commands or follow [post-installation steps](https://docs.docker.com/engine/installation/linux/linux-postinstall/).
+**Note:** Linux users might need to use ``sudo`` to run ``docker`` commands or follow the [post-installation steps](https://docs.docker.com/engine/installation/linux/linux-postinstall/).
 
 Once docker is running on your system you can continue with downloading the docker image for this workshop. For this use the command:
 
@@ -36,9 +34,32 @@ Once the download finished, proceed with the following steps:
 1. Replace the hash number ```20f109eba8e4``` after `http://` with `localhost` or your local IP (probably `192.168.99.100`) if you're on windows.
 1. Once Jupyter Notebook is open, click on the `program.ipynb` notebook, and you're good to go.
 
-If you want to have access to the notebooks run in the docker container, add the command `-v /path/to/your/folder:/home/neuro/workshop` before `miykael/workshop_cambridge`, where `/path/to/your/folder` should be a free folder on your system, such as `/User/neuro/Desktop/workshop`.
+If you want to have **access to the notebooks run in the docker container**, add the command `-v /path/to/your/folder:/home/neuro/workshop` before `miykael/workshop_cambridge`, where `/path/to/your/folder` should be a free folder on your system, such as `/User/neuro/Desktop/workshop`.
 
-And if you want to have access to the output data created within the docker container, add the command  `-v /path/to/your/output_folder:/output` before `miykael/workshop_cambridge`, where `/path/to/your/output_folder` should be a free folder on your system, such as `/User/neuro/Desktop/output`.
+And if you want to have **access to the output data created within the docker container**, add the command  `-v /path/to/your/output_folder:/output` before `miykael/workshop_cambridge`, where `/path/to/your/output_folder` should be a free folder on your system, such as `/User/neuro/Desktop/output`.
+
+## Some useful Docker Commands
+
+    Show running containers
+    $ docker ps
+
+    Show all installed Docker images
+    $ docker images
+
+    Show all (also stopped) containers
+    $ docker ps -a
+
+    Remove a container
+    $ docker rm $CONTAINER_ID
+
+    Remove a docker image
+    $ docker rmi -f $IMAGE_ID
+
+    Start a stopped container & attach to it
+    $ docker start -ia $CONTAINER_ID
+
+**Note**: when you stop a container (Ctrl-C), and then re-execute above "docker run" command, you will end up with a second container. If you want to access your previous container (e.g. with downloaded data), you must reconnect to it (see "docker start -ia" command below).
+
 
 
 ## 2. Conda (if you want to install everything on your system yourself)
