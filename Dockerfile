@@ -39,12 +39,13 @@ USER neuro
 RUN conda install -y -q --name neuro bokeh \
                                      holoviews \
                                      plotly \
+                                     dipy \
+                                     vtk \
     && sync && conda clean -tipsy && sync \
     && bash -c "source activate neuro \
     && pip install  --no-cache-dir nitime \
                                    nibabel \
                                    nilearn \
-                                   dipy \
                                    pymvpa2 \
                                    tensorflow \
                                    keras \
