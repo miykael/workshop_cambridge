@@ -63,7 +63,7 @@ RUN bash -c 'source activate neuro \
              && cd /data/ds000114 \
              && datalad get -J 4 /data/ds000114/sub-0[234789]/ses-test/anat/sub-0[234789]_ses-test_T1w.nii.gz \
                                  /data/ds000114/sub-0[234789]/ses-test/func/*fingerfootlips* \
-                                 /data/ds000114/derivatives/freesurfer/sub-01
+                                 /data/ds000114/derivatives/freesurfer/sub-01'
 
 #------------------------------------------------
 # Copy workshop notebooks into image and clean up
