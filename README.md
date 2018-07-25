@@ -34,8 +34,6 @@ Once the download finished, proceed with the following steps:
 1. Replace the hash number ```20f109eba8e4``` after `http://` with `localhost` or your local IP (probably `192.168.99.100`) if you're on windows.
 1. Once Jupyter Notebook is open, click on the `program.ipynb` notebook, and you're good to go.
 
-If you want to have **access to the notebooks run in the docker container**, add the command `-v /path/to/your/folder:/home/neuro/workshop` before `miykael/workshop_cambridge`, where `/path/to/your/folder` should be a free folder on your system, such as `/User/neuro/Desktop/workshop`.
-
 And if you want to have **access to the output data created within the docker container**, add the command  `-v /path/to/your/output_folder:/output` before `miykael/workshop_cambridge`, where `/path/to/your/output_folder` should be a free folder on your system, such as `/User/neuro/Desktop/output`.
 
 ## Some useful Docker Commands
