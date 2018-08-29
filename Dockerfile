@@ -45,7 +45,7 @@ RUN conda install -y -q --name neuro bokeh \
     && bash -c "source activate neuro \
     && pip install  --no-cache-dir nitime \
                                    nibabel \
-                                   nilearn \
+                                   nilearn==0.5.0a \
                                    pymvpa2 \
                                    tensorflow \
                                    keras \
