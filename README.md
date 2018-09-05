@@ -65,10 +65,11 @@ And if you want to have **access to the output data created within the docker co
 If you don't care about some of the software dependencies, or have them already installed on your system, you can use conda to create the necessary python environment to run the notebooks:
 
 1. If you haven't yet, get conda on your system: https://conda.io/miniconda.html
-2. Download the `environment.yml` file from [here](https://github.com/miykael/workshop_cambridge/blob/master/environment.yml)
+2. Download the `environment.yml` file from [here].(https://github.com/miykael/workshop_cambridge/blob/master/environment.yml)
 3. Open up a conda terminal (or any other terminal), and create a new conda environment with the following command: `conda env create --name workshop --file /path/to/file/environment.yml`
 4. Download the notebooks in this repository ([here](https://github.com/miykael/workshop_cambridge/archive/master.zip)), save them in a desired location, i.e. (`Desktop/workshop`).
-5. Upon up a (docker) terminal, activate the conda environment with `source activate workshop` (for mac and linux) or with `activate workshop` (for windows), go into the folder where you saved the just downloaded notebooks (i.e. `Desktop/workshop`) and run the following command from the folder that contains the `program.ipynb` notebook: `jupyter notebook`
+5. Download the two datasets [adhd](https://www.dropbox.com/sh/wl0auzjfnp2jia3/AAChCae4sCHzB8GJ02VHGOYQa?dl=1) and [ds000114](https://www.dropbox.com/sh/s0m8iz8fer3j5el/AACMamy4DyTMHMBud1IVgEDka?dl=1) and put them into the workshop folder, i.e. (`Desktop/workshop`).
+6. Open up a (docker) terminal, activate the conda environment with `source activate workshop` (for mac and linux) or with `activate workshop` (for windows), go into the folder where you saved the just downloaded notebooks (i.e. `Desktop/workshop`) and run the following command from the folder that contains the `program.ipynb` notebook: `jupyter notebook`
 
 **Note**: This only provides you the notebooks from the workshop that are not already in the `nipype_tutorial`. Those notebooks you can download here: https://github.com/miykael/nipype_tutorial
 
