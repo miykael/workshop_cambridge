@@ -1,4 +1,6 @@
-[![CircleCi](https://img.shields.io/circleci/project/miykael/workshop_cambridge/master.svg?maxAge=2592000)](https://circleci.com/gh/miykael/workshop_cambridge/tree/master)
+# Workshops Cambridge - 2018
+
+[![CircleCi](https://circleci.com/gh/miykael/workshop_cambridge.svg?style=shield)](https://circleci.com/gh/miykael/workshop_cambridge/tree/master)
 [![GitHub issues](https://img.shields.io/github/issues/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/pulls/)
 [![GitHub contributors](https://img.shields.io/github/contributors/miykael/workshop_cambridge.svg)](https://GitHub.com/miykael/workshop_cambridge/graphs/contributors/)
@@ -6,8 +8,6 @@
 [![GitHub size](https://github-size-badge.herokuapp.com/miykael/workshop_cambridge.svg)](https://github.com/miykael/workshop_cambridge/archive/master.zip)
 [![Docker Hub](https://img.shields.io/docker/pulls/miykael/workshop_cambridge.svg?maxAge=2592000)](https://hub.docker.com/r/miykael/workshop_cambridge/)
 [![GitHub HitCount](http://hits.dwyl.io/miykael/workshop_cambridge.svg)](http://hits.dwyl.io/miykael/workshop_cambridge)
-
-# Workshops Cambridge - 2018
 
 This repository contains everything for the workshop in Cambridge 2018. There are three ways that you can interact with its content:
 
